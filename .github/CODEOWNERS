@@ -25,14 +25,12 @@ config/boards/bananapim3.conf		@AaronNGray
 config/boards/bananapim5.conf		@bretmlw
 config/boards/bananapim64.conf		@devdotnetorg
 config/boards/bigtreetech-cb1.conf		@bigtreetech
-config/boards/espressobin.conf		@ManoftheSea
 config/boards/firefly-rk3399.conf		@150balbes
 config/boards/fxblox-rk1.wip		@mahdichi
 config/boards/hinlink-h28k.csc		@sputnik2019
 config/boards/indiedroid-nova.csc		@lanefu
 config/boards/jethubj100.conf		@adeepn
 config/boards/jethubj80.conf		@adeepn
-config/boards/jetson-nano.conf		@150balbes
 config/boards/khadas-edge2.conf		@igorpecovnik
 config/boards/khadas-vim1.conf		@igorpecovnik
 config/boards/khadas-vim1s.wip		@rpardini @viraniac
@@ -114,7 +112,6 @@ config/kernel/linux-media-*.config		@150balbes
 config/kernel/linux-meson-*.config		@hzyitc
 config/kernel/linux-meson-s4t7-*.config		@echatzip @rpardini @viraniac
 config/kernel/linux-meson64-*.config		@NicoD-SBC @SteeManMI @Tonymac32 @adeepn @bretmlw @clee @engineer-80 @igorpecovnik @jeanrhum @monkaBlyat @pyavitz @rpardini @teknoid
-config/kernel/linux-mvebu64-*.config		@ManoftheSea
 config/kernel/linux-odroidxu4-*.config		@joekhoobyar
 config/kernel/linux-rk3568-odroid-*.config		@rpardini @utlark
 config/kernel/linux-rk35xx-*.config		@Tonymac32 @ZazaBR @amazingfate @catalinii @efectn @igorpecovnik @krachlatte @lanefu @linhz0hz @mahdichi @monkaBlyat @rpardini @sputnik2019 @vamzii
@@ -130,7 +127,6 @@ config/kernel/linux-thead-*.config		@chainsx
 config/kernel/linux-uefi-arm64-*.config		@rpardini
 config/kernel/linux-uefi-x86-*.config		@rpardini
 patch/kernel/NEED-*/		@bigtreetech
-patch/kernel/archive/bcm2711-*/		@PanderMusubi @teknoid
 patch/kernel/archive/meson-*/		@hzyitc
 patch/kernel/archive/meson-s4t7-*/		@echatzip @rpardini @viraniac
 patch/kernel/archive/meson64-*/		@NicoD-SBC @SteeManMI @Tonymac32 @adeepn @bretmlw @clee @engineer-80 @igorpecovnik @jeanrhum @monkaBlyat @pyavitz @rpardini @teknoid
@@ -150,7 +146,6 @@ patch/kernel/k3-*/		@glneo
 patch/kernel/media-*/		@150balbes
 patch/kernel/meson-*/		@hzyitc
 patch/kernel/meson64-*/		@NicoD-SBC @SteeManMI @Tonymac32 @adeepn @bretmlw @clee @engineer-80 @igorpecovnik @jeanrhum @monkaBlyat @pyavitz @rpardini @teknoid
-patch/kernel/mvebu64-*/		@ManoftheSea
 patch/kernel/odroidxu4-*/		@joekhoobyar
 patch/kernel/rk35xx-*/		@Tonymac32 @ZazaBR @amazingfate @catalinii @efectn @igorpecovnik @krachlatte @lanefu @linhz0hz @mahdichi @monkaBlyat @rpardini @sputnik2019 @vamzii
 patch/kernel/rockchip-*/		@paolosabatino
@@ -168,7 +163,6 @@ sources/families/media.conf		@150balbes
 sources/families/meson-s4t7.conf		@echatzip @rpardini @viraniac
 sources/families/meson.conf		@hzyitc
 sources/families/meson64.conf		@NicoD-SBC @SteeManMI @Tonymac32 @adeepn @bretmlw @clee @engineer-80 @igorpecovnik @jeanrhum @monkaBlyat @pyavitz @rpardini @teknoid
-sources/families/mvebu64.conf		@ManoftheSea
 sources/families/odroidxu4.conf		@joekhoobyar
 sources/families/rk3568-odroid.conf		@rpardini @utlark
 sources/families/rk35xx.conf		@Tonymac32 @ZazaBR @amazingfate @catalinii @efectn @igorpecovnik @krachlatte @lanefu @linhz0hz @mahdichi @monkaBlyat @rpardini @sputnik2019 @vamzii
