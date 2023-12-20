@@ -17,7 +17,7 @@ GOVERNOR=ondemand
 case $BRANCH in
 	legacy)
 
-		KERNELSOURCE="https://github.com/megous/linux"
+		KERNELSOURCE="https://github.com/kwanxian/linux-orangepi"
 		KERNELBRANCH="branch:orange-pi-5.4"
 		KERNELPATCHDIR='sunxi-'$BRANCH
 
@@ -25,7 +25,7 @@ case $BRANCH in
 
 	current)
 
-		KERNELSOURCE="https://github.com/megous/linux"
+		KERNELSOURCE="https://github.com/kwanxian/linux-orangepi"
 		KERNELBRANCH="branch:orange-pi-5.10"
 		KERNELPATCHDIR='sunxi-'$BRANCH
 
@@ -33,7 +33,7 @@ case $BRANCH in
 
 	edge)
 
-		KERNELSOURCE="https://github.com/megous/linux"
+		KERNELSOURCE="https://github.com/kwanxian/linux-orangepi"
 		KERNELBRANCH="branch:orange-pi-5.13"
 		KERNELPATCHDIR='sunxi-'$BRANCH
 
